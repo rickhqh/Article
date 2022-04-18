@@ -70,6 +70,7 @@ print(type(t3))
     <class 'numpy.ndarray'>
     [0 2 4 6 8]
     <class 'numpy.ndarray'>
+    
 
 
 ```python
