@@ -51,7 +51,7 @@ print(type(t1))
     [1 2 3 4]
     [1 2 3]
     <class 'numpy.ndarray'>
-    
+
 
 
 ```python
@@ -70,7 +70,7 @@ print(type(t3))
     <class 'numpy.ndarray'>
     [0 2 4 6 8]
     <class 'numpy.ndarray'>
-    
+
 
 
 ```python
@@ -379,7 +379,7 @@ arr1[::-1]
      [52 54 56 58 60 62 64 66]
      [68 70 72 74 76 78 80 82]
      [84 86 88 90 92 94 96 98]]
-    
+
 
 
 
@@ -408,8 +408,7 @@ plt.imshow(img_arr)
 
 
 
-    
-![png](output_29_1.png)
+![png](https://cdn.jsdelivr.net/gh/rickhqh/pic/img/202204182313095.png)
     
 
 
@@ -426,9 +425,9 @@ plt.imshow(img_arr[:,::-1,:])#img_arr[行，列，颜色]
 
 
 
-    
-![png](output_30_1.png)
-    
+​    
+![png](https://cdn.jsdelivr.net/gh/rickhqh/pic/img/202204182314649.png)
+​    
 
 
 
@@ -445,9 +444,9 @@ plt.imshow(img_arr[100:500,100b300,:])
 
 
 
-    
-![png](output_31_1.png)
-    
+​    
+![png](https://cdn.jsdelivr.net/gh/rickhqh/pic/img/202204182314743.png)
+​    
 
 
 
@@ -503,7 +502,7 @@ print(t1[[0,1,1],[0,1,3]])# 取多个不连续的值，[[行，行。。。],[�
      [19 20 21 22 23]]
     ********************
     [0 7 9]
-    
+
 
 ## 变形reshape
 
@@ -627,9 +626,9 @@ plt.imshow(arr_3)
 
 
 
-    
-![png](output_41_1.png)
-    
+​    
+![png](https://cdn.jsdelivr.net/gh/rickhqh/pic/img/202204182314142.png)
+​    
 
 
 ## 常用的聚合操作
@@ -833,5 +832,4 @@ np.dot(a1,a2)
 
     array([[3, 4],
            [7, 8]])
-
 
